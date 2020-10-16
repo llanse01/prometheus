@@ -12,7 +12,7 @@ jobs:
       uses: Dirrk/terraform-docs@v1.0.7
       with:
        # tf_docs_find_dir: private-location/
-        tf_docs_working_dir: prometheus
+        tf_docs_working_dir: .
         tf_docs_output_file: README.md
         tf_docs_output_method: inject
         tf_docs_git_push: 'true'
